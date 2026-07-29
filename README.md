@@ -38,7 +38,7 @@ I build products end to end — backend, mobile, web, infrastructure. Most of wh
 </tr>
 </table>
 
-<img src="./assets/stack.svg" alt="Stack — languages: rust, go, kotlin, python, typescript · platform: linux, docker, postgresql, github actions, nginx · security: tls/quic, post-quantum, fuzzing, wireshark, threat modeling" width="100%">
+<img src="./assets/stack.svg" alt="Stack — languages: rust, go, kotlin, python, typescript · platform: linux, docker, postgresql, nginx · web: next.js, typescript, vanilla js · security: tls/quic, post-quantum, fuzzing · tooling: git, github actions, wireshark · mobile: android, kotlin, coroutines" width="100%">
 
 ## Selected work
 

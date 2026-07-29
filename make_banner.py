@@ -90,7 +90,7 @@ def build(name, c):
             f'fill="{c["muted"]}" opacity="0.75">{off}</text>')
         add(f'<text x="730" y="{y}" font-family="{MONO}" font-size="15" letter-spacing="0.4" '
             f'fill="{c["dim"]}" opacity="{c["hexop"]}">{hexes}</text>')
-        add(f'<text x="1074" y="{y}" font-family="{MONO}" font-size="15" '
+        add(f'<text x="1100" y="{y}" font-family="{MONO}" font-size="15" '
             f'fill="{c["accent"]}" opacity="0.82">|{asc}|</text>')
         y += 33
     add('</g>')
@@ -133,10 +133,17 @@ for n, cc in THEMES.items():
 
 SW, SH = 1280, 214
 
-ROWS = [
-    ("languages", ["rust", "go", "kotlin", "python", "typescript"]),
-    ("platform",  ["linux", "docker", "postgresql", "github actions", "nginx"]),
-    ("security",  ["tls/quic", "post-quantum", "fuzzing", "wireshark", "threat modeling"]),
+COLS = [
+    (108, 236, [
+        ("languages", "rust · go · kotlin · python · typescript"),
+        ("platform",  "linux · docker · postgresql · nginx"),
+        ("web",       "next.js · typescript · vanilla js"),
+    ]),
+    (700, 820, [
+        ("security",  "tls/quic · post-quantum · fuzzing"),
+        ("tooling",   "git · github actions · wireshark"),
+        ("mobile",    "android · kotlin · coroutines"),
+    ]),
 ]
 
 
@@ -156,20 +163,21 @@ def build_stack(c):
     add(f'<rect width="{SW}" height="{SH}" rx="18" fill="{c["bg"]}"/>')
     add(f'<rect width="{SW}" height="{SH}" rx="18" fill="url(#sgrid)"/>')
     add(f'<rect x="76" y="46" width="3" height="{SH-92}" rx="1.5" fill="url(#sbar)"/>')
+    add(f'<rect x="668" y="46" width="3" height="{SH-92}" rx="1.5" fill="url(#sbar)" opacity="0.6"/>')
 
-    y = 74
-    for label, items in ROWS:
-        add(f'<text x="108" y="{y}" font-family="{MONO}" font-size="14" letter-spacing="3.4" '
-            f'fill="{c["muted"]}">{label}</text>')
-        # tspan'ы: сами технологии светлые, разделители приглушённые
-        parts = []
-        for i, it in enumerate(items):
-            if i:
-                parts.append(f'<tspan fill="{c["muted"]}" opacity="0.7">  ·  </tspan>')
-            parts.append(f'<tspan fill="{c["fg"]}">{it}</tspan>')
-        add(f'<text x="290" y="{y}" font-family="{MONO}" font-size="17" '
-            f'letter-spacing="0.6">{"".join(parts)}</text>')
-        y += 54
+    for lx, vx, rows in COLS:
+        y = 74
+        for label, value in rows:
+            add(f'<text x="{lx}" y="{y}" font-family="{MONO}" font-size="13.5" '
+                f'letter-spacing="3.2" fill="{c["dim"]}" opacity="0.85">{label}</text>')
+            parts = []
+            for j, tok in enumerate(value.split(" · ")):
+                if j:
+                    parts.append(f'<tspan fill="{c["muted"]}" opacity="0.65">  ·  </tspan>')
+                parts.append(f'<tspan fill="{c["fg"]}">{tok}</tspan>')
+            add(f'<text x="{vx}" y="{y}" font-family="{MONO}" font-size="16" '
+                f'letter-spacing="0.5">{"".join(parts)}</text>')
+            y += 54
 
     add(f'<rect x="0.75" y="0.75" width="{SW-1.5}" height="{SH-1.5}" rx="18" '
         f'fill="none" stroke="{c["hair"]}" stroke-width="1.5"/>')

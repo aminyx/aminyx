@@ -13,28 +13,28 @@
 <g mask="url(#mR)">
 <text x="638" y="84" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#5A6673" opacity="0.75">00400000</text>
 <text x="730" y="84" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" letter-spacing="0.4" fill="#93A1B0" opacity="0.66">66 75 6c 6c 73 74 61 63 6b 2e 67 6f 20 20</text>
-<text x="1074" y="84" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|fullstack.go  |</text>
+<text x="1100" y="84" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|fullstack.go  |</text>
 <text x="638" y="117" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#5A6673" opacity="0.75">00400010</text>
 <text x="730" y="117" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" letter-spacing="0.4" fill="#93A1B0" opacity="0.66">63 79 62 65 72 73 65 63 2e 65 6e 67 20 20</text>
-<text x="1074" y="117" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|cybersec.eng  |</text>
+<text x="1100" y="117" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|cybersec.eng  |</text>
 <text x="638" y="150" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#5A6673" opacity="0.75">00400020</text>
 <text x="730" y="150" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" letter-spacing="0.4" fill="#93A1B0" opacity="0.66">72 75 73 74 3a 3a 74 6f 6b 69 6f 21 20 20</text>
-<text x="1074" y="150" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|rust::tokio!  |</text>
+<text x="1100" y="150" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|rust::tokio!  |</text>
 <text x="638" y="183" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#5A6673" opacity="0.75">00400030</text>
 <text x="730" y="183" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" letter-spacing="0.4" fill="#93A1B0" opacity="0.66">6b 6f 74 6c 69 6e 2b 64 72 6f 69 64 20 20</text>
-<text x="1074" y="183" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|kotlin+droid  |</text>
+<text x="1100" y="183" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|kotlin+droid  |</text>
 <text x="638" y="216" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#5A6673" opacity="0.75">00400040</text>
 <text x="730" y="216" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" letter-spacing="0.4" fill="#93A1B0" opacity="0.66">70 6f 73 74 2d 71 75 61 6e 74 75 6d 20 20</text>
-<text x="1074" y="216" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|post-quantum  |</text>
+<text x="1100" y="216" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|post-quantum  |</text>
 <text x="638" y="249" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#5A6673" opacity="0.75">00400050</text>
 <text x="730" y="249" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" letter-spacing="0.4" fill="#93A1B0" opacity="0.66">7a 65 72 6f 2e 74 72 75 73 74 2e 78 20 20</text>
-<text x="1074" y="249" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|zero.trust.x  |</text>
+<text x="1100" y="249" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|zero.trust.x  |</text>
 <text x="638" y="282" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#5A6673" opacity="0.75">00400060</text>
 <text x="730" y="282" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" letter-spacing="0.4" fill="#93A1B0" opacity="0.66">73 68 69 70 5f 69 74 5f 73 61 66 65 20 20</text>
-<text x="1074" y="282" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|ship_it_safe  |</text>
+<text x="1100" y="282" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|ship_it_safe  |</text>
 <text x="638" y="315" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#5A6673" opacity="0.75">00400070</text>
 <text x="730" y="315" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" letter-spacing="0.4" fill="#93A1B0" opacity="0.66">61 6d 69 6e 79 78 40 67 68 3a 2f 2f 20 20</text>
-<text x="1074" y="315" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|aminyx@gh://  |</text>
+<text x="1100" y="315" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|aminyx@gh://  |</text>
 </g>
 <rect x="0" y="0" width="556" height="340" rx="18" fill="#06080B"/>
 <rect x="556" y="0" width="110" height="340" fill="url(#panelFade)"/>
