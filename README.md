@@ -1,65 +1,37 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img src="./assets/banner-dark.svg" alt="Aminyx — full-stack developer and cybersecurity" width="100%">
-</picture>
+<img src="./assets/banner.svg" alt="Aminyx — full-stack developer and cybersecurity engineer" width="100%">
 
-<div align="center">
+<p align="center"><a href="mailto:itsaminyx@gmail.com"><img src="https://img.shields.io/badge/email-itsaminyx%40gmail.com-22D3EE?style=flat-square&labelColor=06080B&logo=gmail&logoColor=22D3EE" alt="Email"></a> <a href="https://t.me/itsaminyx"><img src="https://img.shields.io/badge/telegram-%40itsaminyx-22D3EE?style=flat-square&labelColor=06080B&logo=telegram&logoColor=22D3EE" alt="Telegram"></a> <a href="https://t.me/isaminyx"><img src="https://img.shields.io/badge/channel-%40isaminyx-34D399?style=flat-square&labelColor=06080B&logo=telegram&logoColor=34D399" alt="Channel"></a> <a href="https://x.com/itsaminyx"><img src="https://img.shields.io/badge/x-%40itsaminyx-93A1B0?style=flat-square&labelColor=06080B&logo=x&logoColor=93A1B0" alt="X"></a> <img src="https://img.shields.io/badge/languages-t%D0%BE%D2%B7%D0%B8%D0%BA%D3%A3%20%C2%B7%20ru%20%C2%B7%20en-93A1B0?style=flat-square&labelColor=06080B" alt="Languages"></p>
 
-<a href="mailto:itsaminyx@gmail.com"><img src="https://img.shields.io/badge/email-itsaminyx@gmail.com-22D3EE?style=flat-square&logo=gmail&logoColor=white&labelColor=07090D" alt="Email"></a>
-<a href="https://t.me/itsaminyx"><img src="https://img.shields.io/badge/telegram-@itsaminyx-22D3EE?style=flat-square&logo=telegram&logoColor=white&labelColor=07090D" alt="Telegram"></a>
-<a href="https://t.me/isaminyx"><img src="https://img.shields.io/badge/channel-@isaminyx-334155?style=flat-square&logo=telegram&logoColor=white&labelColor=07090D" alt="Channel"></a>
-<a href="https://x.com/itsaminyx"><img src="https://img.shields.io/badge/x-itsaminyx-334155?style=flat-square&logo=x&logoColor=white&labelColor=07090D" alt="X"></a>
-
-</div>
-
----
-
-I build products end to end — backend, mobile, web, infrastructure — and most of what I build carries other people's traffic and payments. That is why security is not a layer I add at the end.
-
-**Тоҷикӣ · Русский · English**
-
----
-
-## Full-stack
+I build products end to end — backend, mobile, web, infrastructure. Most of what I ship carries other people's traffic and payments, which is why security is not a layer I add at the end.
 
 <table>
 <tr>
-<td width="25%"><b>Backend</b></td>
-<td>Go and Rust services, PostgreSQL, payment reconciliation across independent providers, subscription logic, REST and gRPC surfaces.</td>
-</tr>
-<tr>
-<td><b>Mobile</b></td>
-<td>Android in Kotlin — VPN client with kill switch, self-healing across network changes, background service lifecycle, Play-compliant release flow.</td>
-</tr>
-<tr>
-<td><b>Web</b></td>
-<td>Next.js and TypeScript when the product needs it; plain HTML, CSS and vanilla JS when a framework would only add weight. Dark interfaces, design systems, real accessibility.</td>
-</tr>
-<tr>
-<td><b>Infra</b></td>
-<td>Linux, Docker, CI pipelines with tests and fuzzing, deploy runbooks, metrics and alerting on dead nodes before users notice.</td>
-</tr>
-</table>
+<td width="50%" valign="top">
 
-## Cybersecurity
+### `▍` Full-stack
 
-<table>
-<tr>
-<td width="25%"><b>Transport crypto</b></td>
-<td>Hybrid post-quantum handshakes, traffic-shape resistance, probe-resistant profiles, obfuscation that survives active probing.</td>
-</tr>
-<tr>
-<td><b>Infrastructure</b></td>
-<td>Protocol ingress and failover, key rotation, per-IP abuse limits, secrets kept out of images and backups.</td>
-</tr>
-<tr>
-<td><b>Hardening</b></td>
-<td>Property-based tests and fuzz targets in CI, threat-driven code review, closing the gap between what the docs promise and what the service actually does.</td>
-</tr>
-<tr>
-<td><b>Study</b></td>
-<td>Going deep into offensive and defensive security — and publishing the entire curriculum publicly as I work through it.</td>
+**Backend** — Go and Rust services, PostgreSQL, payment reconciliation across independent providers, subscription logic.
+
+**Mobile** — Android in Kotlin: VPN client with kill switch, self-healing across network changes, Play-compliant releases.
+
+**Web** — Next.js and TypeScript when the product needs it; plain HTML and vanilla JS when a framework would only add weight.
+
+**Infra** — Linux, Docker, CI with tests and fuzzing, metrics and alerting that fire before users notice.
+
+</td>
+<td width="50%" valign="top">
+
+### `▍` Cybersecurity
+
+**Transport crypto** — hybrid post-quantum handshakes, traffic-shape resistance, profiles that survive active probing.
+
+**Infrastructure** — protocol ingress and failover, key rotation, per-IP abuse limits, secrets kept out of images and backups.
+
+**Hardening** — property-based tests and fuzz targets in CI, threat-driven review, closing the gap between what docs promise and what the service does.
+
+**Study** — going deep into offensive and defensive security, publishing the whole curriculum as I work through it.
+
+</td>
 </tr>
 </table>
 
@@ -67,48 +39,72 @@ I build products end to end — backend, mobile, web, infrastructure — and mos
 
 ## Selected work
 
-### [Cybersecurity Course](https://github.com/aminyx/Cybersec) · public
+<table>
+<tr><td width="30%" valign="top">
 
-A 270-day path from zero to junior, fully bilingual in Russian and Tajik. Nine months of daily lessons, 270 knowledge checks that gate progress so a day cannot be marked done without passing, CTF challenges verified offline against hashed flags, six practical exams and ten portfolio projects.
+### [Cybersec](https://github.com/aminyx/Cybersec)
 
-The site generates itself from Markdown, runs with no framework and no build step, and embeds every lesson video on the page — the player is created only on click, so nothing is requested from Google until you press play.
+`public` · `Python` `JS`
 
-→ **[aminyx.github.io/Cybersec](https://aminyx.github.io/Cybersec/)**
+**[Live site ↗](https://aminyx.github.io/Cybersec/)**
 
-### aminyxlink · private · `Rust`
+</td><td valign="top">
 
-A modular networking platform. Hybrid post-quantum crypto, multipath transport, FEC, adaptive obfuscation profiles, a WASM plugin host, cluster gossip with failure detection and OTLP metrics — with property-based tests and fuzz targets wired into CI.
+A **270-day path from zero to junior**, fully bilingual in Russian and Tajik.
 
-### Somon VPN · private · `Go` `Kotlin` `TypeScript`
+Nine months of daily lessons · 270 knowledge checks that gate progress, so a day cannot be closed without passing · CTF challenges verified offline against hashed flags · 6 practical exams · 10 portfolio projects.
 
-A VPN product end to end: backend, Android client, desktop app, Telegram bots, a white-label partner platform, and several payment paths reconciled against one another so no purchase is counted twice or lost.
+The site generates itself from Markdown, runs with no framework and no build step, and embeds every lesson video in the page — the player is created only on click, so nothing reaches Google until you press play.
+
+</td></tr>
+<tr><td valign="top">
+
+### aminyxlink
+
+`private` · `Rust`
+
+</td><td valign="top">
+
+A **modular networking platform**. Hybrid post-quantum crypto, multipath transport, FEC, adaptive obfuscation profiles, a WASM plugin host, cluster gossip with failure detection, OTLP metrics — with property-based tests and fuzz targets wired into CI.
+
+</td></tr>
+<tr><td valign="top">
+
+### Somon VPN
+
+`private` · `Go` `Kotlin` `TS`
+
+</td><td valign="top">
+
+A **VPN product end to end**: backend, Android client, desktop app, Telegram bots, a white-label partner platform, and several payment paths reconciled against one another so no purchase is counted twice or lost.
+
+</td></tr>
+</table>
 
 ---
 
 ## Stack
 
-<p>
-<img src="https://img.shields.io/badge/Rust-07090D?style=for-the-badge&logo=rust&logoColor=F97316" alt="Rust">
-<img src="https://img.shields.io/badge/Go-07090D?style=for-the-badge&logo=go&logoColor=00ADD8" alt="Go">
-<img src="https://img.shields.io/badge/Kotlin-07090D?style=for-the-badge&logo=kotlin&logoColor=A97BFF" alt="Kotlin">
-<img src="https://img.shields.io/badge/Python-07090D?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python">
-<img src="https://img.shields.io/badge/TypeScript-07090D?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript">
-</p>
-<p>
-<img src="https://img.shields.io/badge/Next.js-07090D?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
-<img src="https://img.shields.io/badge/PostgreSQL-07090D?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
-<img src="https://img.shields.io/badge/Docker-07090D?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker">
-<img src="https://img.shields.io/badge/Linux-07090D?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux">
-<img src="https://img.shields.io/badge/Figma-07090D?style=for-the-badge&logo=figma&logoColor=F24E1E" alt="Figma">
-</p>
+<p><img src="https://img.shields.io/badge/Rust-06080B?style=for-the-badge&logo=rust&logoColor=F97316" alt="Rust"> <img src="https://img.shields.io/badge/Go-06080B?style=for-the-badge&logo=go&logoColor=00ADD8" alt="Go"> <img src="https://img.shields.io/badge/Kotlin-06080B?style=for-the-badge&logo=kotlin&logoColor=A97BFF" alt="Kotlin"> <img src="https://img.shields.io/badge/Python-06080B?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python"> <img src="https://img.shields.io/badge/TypeScript-06080B?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript"> <img src="https://img.shields.io/badge/Next.js-06080B?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js"></p>
+
+<p><img src="https://img.shields.io/badge/Linux-06080B?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux"> <img src="https://img.shields.io/badge/Docker-06080B?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker"> <img src="https://img.shields.io/badge/PostgreSQL-06080B?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL"> <img src="https://img.shields.io/badge/GitHub%20Actions-06080B?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions"> <img src="https://img.shields.io/badge/Wireshark-06080B?style=for-the-badge&logo=wireshark&logoColor=1679A7" alt="Wireshark"> <img src="https://img.shields.io/badge/Figma-06080B?style=for-the-badge&logo=figma&logoColor=F24E1E" alt="Figma"></p>
 
 ---
 
-## Ethics
+<table>
+<tr><td width="50%" valign="top">
+
+### `▍` Ethics
 
 Security work only where there is permission: my own systems, my own infrastructure, and legal training ranges. That boundary is written into my course, and I hold to it myself.
 
-<div align="center">
-<br>
-<sub>Open to full-stack and security engineering work · <a href="mailto:itsaminyx@gmail.com">itsaminyx@gmail.com</a></sub>
-</div>
+</td><td width="50%" valign="top">
+
+### `▍` Open to
+
+Full-stack and security engineering — backend systems, hardened infrastructure, and the interfaces on top of them.
+
+**[itsaminyx@gmail.com](mailto:itsaminyx@gmail.com)**
+
+</td></tr>
+</table>

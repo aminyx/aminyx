@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="Aminyx — full-stack developer and cybersecurity engineer">
+<title>Aminyx — full-stack developer · cybersecurity</title>
+<defs>
+<linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="1"/><stop offset="0.90" stop-color="#fff" stop-opacity="1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<mask id="mR"><rect x="580" y="0" width="700" height="340" fill="url(#fadeR)"/></mask>
+<linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#34D399" stop-opacity="0.2"/></linearGradient>
+<linearGradient id="rule" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.9"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1B2635" stroke-width="1" opacity="0.45"/></pattern>
+</defs>
+<rect width="1280" height="340" rx="18" fill="#06080B"/>
+<rect width="1280" height="340" rx="18" fill="url(#grid)"/>
+<g mask="url(#mR)">
+<text x="624" y="84" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#5A6673" opacity="0.75">00400000</text>
+<text x="716" y="84" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" letter-spacing="0.4" fill="#93A1B0" opacity="0.66">66 75 6c 6c 2d 73 74 61 63 6b 2e 64 65 76</text>
+<text x="1086" y="84" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|full-stack.dev|</text>
+<text x="624" y="117" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#5A6673" opacity="0.75">00400010</text>
+<text x="716" y="117" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" letter-spacing="0.4" fill="#93A1B0" opacity="0.66">63 79 62 65 72 73 65 63 75 72 69 74 79 21</text>
+<text x="1086" y="117" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|cybersecurity!|</text>
+<text x="624" y="150" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#5A6673" opacity="0.75">00400020</text>
+<text x="716" y="150" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" letter-spacing="0.4" fill="#93A1B0" opacity="0.66">72 75 73 74 3a 3a 74 6f 6b 69 6f 3b 67 6f</text>
+<text x="1086" y="150" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|rust::tokio;go|</text>
+<text x="624" y="183" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#5A6673" opacity="0.75">00400030</text>
+<text x="716" y="183" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" letter-spacing="0.4" fill="#93A1B0" opacity="0.66">6b 6f 74 6c 69 6e 2b 61 6e 64 72 6f 69 64</text>
+<text x="1086" y="183" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|kotlin+android|</text>
+<text x="624" y="216" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#5A6673" opacity="0.75">00400040</text>
+<text x="716" y="216" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" letter-spacing="0.4" fill="#93A1B0" opacity="0.66">70 6f 73 74 2d 71 75 61 6e 74 75 6d 40 78</text>
+<text x="1086" y="216" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|post-quantum@x|</text>
+<text x="624" y="249" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#5A6673" opacity="0.75">00400050</text>
+<text x="716" y="249" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" letter-spacing="0.4" fill="#93A1B0" opacity="0.66">7a 65 72 6f 2e 74 72 75 73 74 2e 74 6c 73</text>
+<text x="1086" y="249" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|zero.trust.tls|</text>
+<text x="624" y="282" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#5A6673" opacity="0.75">00400060</text>
+<text x="716" y="282" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" letter-spacing="0.4" fill="#93A1B0" opacity="0.66">73 68 69 70 5f 69 74 5f 73 61 66 65 6c 79</text>
+<text x="1086" y="282" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|ship_it_safely|</text>
+<text x="624" y="315" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#5A6673" opacity="0.75">00400070</text>
+<text x="716" y="315" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" letter-spacing="0.4" fill="#93A1B0" opacity="0.66">61 6d 69 6e 79 78 40 67 69 74 68 75 62 2f</text>
+<text x="1086" y="315" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" fill="#22D3EE" opacity="0.82">|aminyx@github/|</text>
+</g>
+<rect x="0" y="0" width="616" height="340" rx="18" fill="#06080B" opacity="0.97"/>
+<rect x="596" y="0" width="20" height="340" fill="#06080B" opacity="0.55"/>
+<rect x="76" y="96" width="3" height="208" rx="1.5" fill="url(#bar)"/>
+<text x="108" y="114" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="14" letter-spacing="5.5" fill="#5A6673">$ whoami</text>
+<text x="104" y="208" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="104" font-weight="700" letter-spacing="-1" fill="#F0F6FC">aminyx</text>
+<rect x="108" y="234" width="352" height="1.5" fill="url(#rule)"/>
+<text x="108" y="266" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="17" letter-spacing="2.4" fill="#22D3EE">full-stack developer</text>
+<text x="108" y="292" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="17" letter-spacing="2.4" fill="#34D399">cybersecurity engineer</text>
+<rect x="0.75" y="0.75" width="1278.5" height="338.5" rx="18" fill="none" stroke="#1B2635" stroke-width="1.5"/>
+</svg>
