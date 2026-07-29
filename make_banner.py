@@ -29,14 +29,14 @@ THEMES = {
 
 # ASCII-колонка складывается в осмысленные слова — деталь для тех, кто присмотрится
 PAYLOAD = [
-    "full-stack.dev",
-    "cybersecurity!",
-    "rust::tokio;go",
-    "kotlin+android",
-    "post-quantum@x",
-    "zero.trust.tls",
-    "ship_it_safely",
-    "aminyx@github/*",
+    "fullstack.go",
+    "cybersec.eng",
+    "rust::tokio!",
+    "kotlin+droid",
+    "post-quantum",
+    "zero.trust.x",
+    "ship_it_safe",
+    "aminyx@gh://",
 ]
 
 
@@ -74,6 +74,9 @@ def build(name, c):
     add('<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">'
         f'<path d="M40 0H0V40" fill="none" stroke="{c["hair"]}" stroke-width="1" '
         f'opacity="{c["grid"]}"/></pattern>')
+    add(f'<linearGradient id="panelFade" x1="0" y1="0" x2="1" y2="0">'
+        f'<stop offset="0" stop-color="{c["bg"]}" stop-opacity="1"/>'
+        f'<stop offset="1" stop-color="{c["bg"]}" stop-opacity="0"/></linearGradient>')
     add('</defs>')
 
     add(f'<rect width="{W}" height="{H}" rx="18" fill="{c["bg"]}"/>')
@@ -83,19 +86,19 @@ def build(name, c):
     add('<g mask="url(#mR)">')
     y = 84
     for off, hexes, asc in hexdump_rows(PAYLOAD):
-        add(f'<text x="600" y="{y}" font-family="{MONO}" font-size="15" '
+        add(f'<text x="638" y="{y}" font-family="{MONO}" font-size="15" '
             f'fill="{c["muted"]}" opacity="0.75">{off}</text>')
-        add(f'<text x="692" y="{y}" font-family="{MONO}" font-size="15" letter-spacing="0.4" '
+        add(f'<text x="730" y="{y}" font-family="{MONO}" font-size="15" letter-spacing="0.4" '
             f'fill="{c["dim"]}" opacity="{c["hexop"]}">{hexes}</text>')
-        add(f'<text x="1046" y="{y}" font-family="{MONO}" font-size="15" '
+        add(f'<text x="1074" y="{y}" font-family="{MONO}" font-size="15" '
             f'fill="{c["accent"]}" opacity="0.82">|{asc}|</text>')
         y += 33
     add('</g>')
 
     # ── левый блок: имя и роли ────────────────────────────────────────
     # мягкая подложка, чтобы дамп не мешал читать текст
-    add(f'<rect x="0" y="0" width="616" height="{H}" rx="18" fill="{c["bg"]}" opacity="0.97"/>')
-    add(f'<rect x="596" y="0" width="20" height="{H}" fill="{c["bg"]}" opacity="0.55"/>')
+    add(f'<rect x="0" y="0" width="556" height="{H}" rx="18" fill="{c["bg"]}"/>')
+    add(f'<rect x="556" y="0" width="110" height="{H}" fill="url(#panelFade)"/>')
 
     add(f'<rect x="76" y="96" width="3" height="208" rx="1.5" fill="url(#bar)"/>')
 
