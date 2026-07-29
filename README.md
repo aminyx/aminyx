@@ -1,8 +1,9 @@
 <img src="./assets/banner.svg" alt="Aminyx — full-stack developer and cybersecurity engineer" width="100%">
 
-<p align="center"><a href="mailto:itsaminyx@gmail.com"><img src="https://img.shields.io/badge/email-22D3EE?style=flat-square&labelColor=06080B&logo=gmail&logoColor=22D3EE" alt="Email"></a> <a href="https://t.me/itsaminyx"><img src="https://img.shields.io/badge/telegram-22D3EE?style=flat-square&labelColor=06080B&logo=telegram&logoColor=22D3EE" alt="Telegram"></a> <a href="https://t.me/isaminyx"><img src="https://img.shields.io/badge/channel-34D399?style=flat-square&labelColor=06080B&logo=telegram&logoColor=34D399" alt="Channel"></a> <a href="https://x.com/itsaminyx"><img src="https://img.shields.io/badge/x-93A1B0?style=flat-square&labelColor=06080B&logo=x&logoColor=93A1B0" alt="X"></a></p>
-
-**Тоҷикӣ · Русский · English**
+<p align="center">
+<a href="mailto:itsaminyx@gmail.com"><b>email</b></a> &nbsp;·&nbsp; <a href="https://t.me/itsaminyx"><b>telegram</b></a> &nbsp;·&nbsp; <a href="https://t.me/isaminyx"><b>channel</b></a> &nbsp;·&nbsp; <a href="https://x.com/itsaminyx"><b>x</b></a> &nbsp;·&nbsp; <a href="https://aminyx.github.io/Cybersec/"><b>course</b></a>
+<br><sub>Тоҷикӣ · Русский · English</sub>
+</p>
 
 I build products end to end — backend, mobile, web, infrastructure. Most of what I ship carries other people's traffic and payments, which is why security is not a layer I add at the end.
 
@@ -10,7 +11,7 @@ I build products end to end — backend, mobile, web, infrastructure. Most of wh
 <tr>
 <td width="50%" valign="top">
 
-### `▍` Full-stack
+### Full-stack
 
 **Backend** — Go and Rust services, PostgreSQL, payment reconciliation across independent providers, subscription logic.
 
@@ -23,7 +24,7 @@ I build products end to end — backend, mobile, web, infrastructure. Most of wh
 </td>
 <td width="50%" valign="top">
 
-### `▍` Cybersecurity
+### Cybersecurity
 
 **Transport crypto** — hybrid post-quantum handshakes, traffic-shape resistance, profiles that survive active probing.
 
@@ -37,18 +38,18 @@ I build products end to end — backend, mobile, web, infrastructure. Most of wh
 </tr>
 </table>
 
----
+<img src="./assets/stack.svg" alt="Stack — languages: rust, go, kotlin, python, typescript · platform: linux, docker, postgresql, github actions, nginx · security: tls/quic, post-quantum, fuzzing, wireshark, threat modeling" width="100%">
 
 ## Selected work
 
 <table>
-<tr><td width="30%" valign="top">
+<tr><td width="28%" valign="top">
 
 ### [Cybersec](https://github.com/aminyx/Cybersec)
 
 `public` · `Python` `JS`
 
-**[Live site ↗](https://aminyx.github.io/Cybersec/)**
+[**Live site ↗**](https://aminyx.github.io/Cybersec/)
 
 </td><td valign="top">
 
@@ -83,30 +84,20 @@ A **VPN product end to end**: backend, Android client, desktop app, Telegram bot
 </td></tr>
 </table>
 
----
-
-## Stack
-
-<p><img src="https://img.shields.io/badge/Rust-06080B?style=flat-square&logo=rust&logoColor=F97316" alt="Rust"> <img src="https://img.shields.io/badge/Go-06080B?style=flat-square&logo=go&logoColor=00ADD8" alt="Go"> <img src="https://img.shields.io/badge/Kotlin-06080B?style=flat-square&logo=kotlin&logoColor=A97BFF" alt="Kotlin"> <img src="https://img.shields.io/badge/Python-06080B?style=flat-square&logo=python&logoColor=3776AB" alt="Python"> <img src="https://img.shields.io/badge/TypeScript-06080B?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"> <img src="https://img.shields.io/badge/Nextjs-06080B?style=flat-square&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js"></p>
-
-<p><img src="https://img.shields.io/badge/Linux-06080B?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux"> <img src="https://img.shields.io/badge/Docker-06080B?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker"> <img src="https://img.shields.io/badge/PostgreSQL-06080B?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL"> <img src="https://img.shields.io/badge/Actions-06080B?style=flat-square&logo=githubactions&logoColor=2088FF" alt="Actions"> <img src="https://img.shields.io/badge/Wireshark-06080B?style=flat-square&logo=wireshark&logoColor=1679A7" alt="Wireshark"> <img src="https://img.shields.io/badge/Figma-06080B?style=flat-square&logo=figma&logoColor=F24E1E" alt="Figma"></p>
-
----
-
 <table>
 <tr><td width="50%" valign="top">
 
-### `▍` Ethics
+### Ethics
 
 Security work only where there is permission: my own systems, my own infrastructure, and legal training ranges. That boundary is written into my course, and I hold to it myself.
 
 </td><td width="50%" valign="top">
 
-### `▍` Open to
+### Open to
 
 Full-stack and security engineering — backend systems, hardened infrastructure, and the interfaces on top of them.
 
-**[itsaminyx@gmail.com](mailto:itsaminyx@gmail.com)**
+[**itsaminyx@gmail.com**](mailto:itsaminyx@gmail.com)
 
 </td></tr>
 </table>

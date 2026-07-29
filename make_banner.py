@@ -121,3 +121,60 @@ def build(name, c):
 for n, cc in THEMES.items():
     f = build(n, cc)
     print(f"  {f.name}: {f.stat().st_size} bytes")
+
+
+# ── полоса стека ──────────────────────────────────────────────────────
+# Отдельной картинкой, потому что GitHub принудительно ставит картинкам
+# в markdown display:block — ряд из отдельных бейджей всегда рассыпается
+# в столбик. Одна картинка решает это и даёт единую типографику с баннером.
+
+SW, SH = 1280, 214
+
+ROWS = [
+    ("languages", ["rust", "go", "kotlin", "python", "typescript"]),
+    ("platform",  ["linux", "docker", "postgresql", "github actions", "nginx"]),
+    ("security",  ["tls/quic", "post-quantum", "fuzzing", "wireshark", "threat modeling"]),
+]
+
+
+def build_stack(c):
+    p = []
+    add = p.append
+    add(f'<svg xmlns="http://www.w3.org/2000/svg" width="{SW}" height="{SH}" '
+        f'viewBox="0 0 {SW} {SH}" role="img" aria-label="Stack: languages, platform, security">')
+    add('<title>Stack</title><defs>')
+    add(f'<linearGradient id="sbar" x1="0" y1="0" x2="0" y2="1">'
+        f'<stop offset="0" stop-color="{c["accent"]}"/>'
+        f'<stop offset="1" stop-color="{c["accent2"]}" stop-opacity="0.2"/></linearGradient>')
+    add('<pattern id="sgrid" width="40" height="40" patternUnits="userSpaceOnUse">'
+        f'<path d="M40 0H0V40" fill="none" stroke="{c["hair"]}" stroke-width="1" '
+        f'opacity="{c["grid"]}"/></pattern>')
+    add('</defs>')
+    add(f'<rect width="{SW}" height="{SH}" rx="18" fill="{c["bg"]}"/>')
+    add(f'<rect width="{SW}" height="{SH}" rx="18" fill="url(#sgrid)"/>')
+    add(f'<rect x="76" y="46" width="3" height="{SH-92}" rx="1.5" fill="url(#sbar)"/>')
+
+    y = 74
+    for label, items in ROWS:
+        add(f'<text x="108" y="{y}" font-family="{MONO}" font-size="14" letter-spacing="3.4" '
+            f'fill="{c["muted"]}">{label}</text>')
+        # tspan'ы: сами технологии светлые, разделители приглушённые
+        parts = []
+        for i, it in enumerate(items):
+            if i:
+                parts.append(f'<tspan fill="{c["muted"]}" opacity="0.7">  ·  </tspan>')
+            parts.append(f'<tspan fill="{c["fg"]}">{it}</tspan>')
+        add(f'<text x="290" y="{y}" font-family="{MONO}" font-size="17" '
+            f'letter-spacing="0.6">{"".join(parts)}</text>')
+        y += 54
+
+    add(f'<rect x="0.75" y="0.75" width="{SW-1.5}" height="{SH-1.5}" rx="18" '
+        f'fill="none" stroke="{c["hair"]}" stroke-width="1.5"/>')
+    add('</svg>')
+    f = OUT / "stack.svg"
+    f.write_text("\n".join(p), encoding="utf-8")
+    return f
+
+
+f = build_stack(THEMES["banner"])
+print(f"  {f.name}: {f.stat().st_size} bytes")
