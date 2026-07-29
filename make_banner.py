@@ -62,7 +62,7 @@ def build(name, c):
     # затухание hex-дампа к правому краю, чтобы блок не обрывался стеной
     add('<linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0">'
         '<stop offset="0" stop-color="#fff" stop-opacity="1"/>'
-        '<stop offset="0.90" stop-color="#fff" stop-opacity="1"/>'
+        '<stop offset="0.95" stop-color="#fff" stop-opacity="1"/>'
         '<stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>')
     add('<mask id="mR"><rect x="580" y="0" width="700" height="340" fill="url(#fadeR)"/></mask>')
     add(f'<linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">'
@@ -83,11 +83,11 @@ def build(name, c):
     add('<g mask="url(#mR)">')
     y = 84
     for off, hexes, asc in hexdump_rows(PAYLOAD):
-        add(f'<text x="624" y="{y}" font-family="{MONO}" font-size="15" '
+        add(f'<text x="600" y="{y}" font-family="{MONO}" font-size="15" '
             f'fill="{c["muted"]}" opacity="0.75">{off}</text>')
-        add(f'<text x="716" y="{y}" font-family="{MONO}" font-size="15" letter-spacing="0.4" '
+        add(f'<text x="692" y="{y}" font-family="{MONO}" font-size="15" letter-spacing="0.4" '
             f'fill="{c["dim"]}" opacity="{c["hexop"]}">{hexes}</text>')
-        add(f'<text x="1086" y="{y}" font-family="{MONO}" font-size="15" '
+        add(f'<text x="1046" y="{y}" font-family="{MONO}" font-size="15" '
             f'fill="{c["accent"]}" opacity="0.82">|{asc}|</text>')
         y += 33
     add('</g>')
