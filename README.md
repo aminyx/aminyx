@@ -1,7 +1,7 @@
 <img src="./assets/banner.svg" alt="Aminyx — full-stack developer and cybersecurity engineer" width="100%">
 
 <p align="center">
-<a href="mailto:itsaminyx@gmail.com"><b>email</b></a> &nbsp;·&nbsp; <a href="https://t.me/itsaminyx"><b>telegram</b></a> &nbsp;·&nbsp; <a href="https://t.me/isaminyx"><b>channel</b></a> &nbsp;·&nbsp; <a href="https://x.com/itsaminyx"><b>x</b></a> &nbsp;·&nbsp; <a href="https://aminyx.github.io/Cybersec/"><b>course</b></a>
+<a href="https://aminyx.top"><b>aminyx.top</b></a> &nbsp;&middot;&nbsp; <a href="mailto:itsaminyx@gmail.com"><b>email</b></a> &nbsp;·&nbsp; <a href="https://t.me/itsaminyx"><b>telegram</b></a> &nbsp;·&nbsp; <a href="https://t.me/isaminyx"><b>channel</b></a> &nbsp;·&nbsp; <a href="https://x.com/itsaminyx"><b>x</b></a> &nbsp;·&nbsp; <a href="https://aminyx.github.io/Cybersec/"><b>course</b></a>
 <br><sub>Тоҷикӣ · Русский · English</sub>
 </p>
 
