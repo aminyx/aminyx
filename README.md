@@ -45,6 +45,43 @@ I build products end to end — backend, mobile, web, infrastructure. Most of wh
 <table>
 <tr><td width="28%" valign="top">
 
+### [sable](https://github.com/aminyx/sable)
+
+`public` · `Rust`
+
+[**Live playground ↗**](https://aminyx.github.io/sable/)
+
+</td><td valign="top">
+
+A **statically-typed language that compiles to WebAssembly** — Hindley-Milner type inference (no annotations anywhere), monomorphization of polymorphic functions, and Wasm emitted byte by byte without LLVM or any codegen library. The compiler is itself compiled to Wasm, so the playground compiles *and runs* your program in the tab. Correctness is proven by executing every generated module in a real Wasm engine.
+
+</td></tr>
+<tr><td valign="top">
+
+### [keelstore](https://github.com/aminyx/keelstore)
+
+`public` · `Go`
+
+</td><td valign="top">
+
+An **embedded LSM key-value store built from scratch**, zero dependencies: write-ahead log with CRC framing and torn-tail recovery, a hand-written lock-free skiplist and bloom filter, levelled compaction, snapshot isolation. Durability is tested by killing a child process mid-write and reopening the store.
+
+</td></tr>
+<tr><td valign="top">
+
+### [driftpad](https://github.com/aminyx/driftpad)
+
+`public` · `TypeScript`
+
+[**Live demo ↗**](https://aminyx.github.io/driftpad/)
+
+</td><td valign="top">
+
+**Local-first collaborative notes with a CRDT written by hand** — an RGA text sequence and LWW registers, no Yjs. Works fully offline in IndexedDB and merges concurrent edits without a server. Convergence is asserted by property tests across replicas with shuffled, duplicated delivery.
+
+</td></tr>
+<tr><td valign="top">
+
 ### [threshold](https://github.com/aminyx/threshold)
 
 `public` · `Go`
