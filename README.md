@@ -45,6 +45,61 @@ I build products end to end — backend, mobile, web, infrastructure. Most of wh
 <table>
 <tr><td width="28%" valign="top">
 
+### [threshold](https://github.com/aminyx/threshold)
+
+`public` · `Go`
+
+</td><td valign="top">
+
+An **API gateway that treats failure as the normal case**: Redis sliding-window rate limiting with IETF `RateLimit` headers, per-upstream circuit breakers, hedged retries, health-aware balancing, JWT at the edge, hot reload, Prometheus — stdlib-first, race-tested, with measured latency numbers in the README.
+
+</td></tr>
+<tr><td valign="top">
+
+### [ledgerline](https://github.com/aminyx/ledgerline)
+
+`public` · `Go`
+
+</td><td valign="top">
+
+A **payments core proven under chaos**: append-only double-entry ledger with database-enforced zero-sum, idempotency keys claimed before the provider call, deduped HMAC webhooks, transactional outbox to NATS — attacked by its own chaos provider that duplicates webhooks and skims settlement files.
+
+</td></tr>
+<tr><td valign="top">
+
+### [citeseek](https://github.com/aminyx/citeseek)
+
+`public` · `Python`
+
+</td><td valign="top">
+
+**RAG with receipts**: hybrid retrieval (pgvector + BM25 fused by RRF), answers with validated citations, and an evaluation harness — Recall@5, MRR, citation coverage — that gates CI. Provider-agnostic LLM layer; the whole suite runs offline with zero API keys.
+
+</td></tr>
+<tr><td valign="top">
+
+### [crowdpoll](https://github.com/aminyx/crowdpoll)
+
+`public` · `TypeScript`
+
+</td><td valign="top">
+
+**Live audience Q&A and polls** in Next.js 16: the room joins by code with no accounts, questions get upvoted, poll bars move on every screen in real time over SSE. Vote integrity by primary key, anonymous sessions rate-limited, better-auth + Drizzle.
+
+</td></tr>
+<tr><td valign="top">
+
+### [mcp-devdb](https://github.com/aminyx/mcp-devdb)
+
+`public` · `TypeScript`
+
+</td><td valign="top">
+
+An **MCP server that lets coding agents inspect dev databases safely**: schema, sample rows, EXPLAIN — behind a quote-aware read-only SQL guard, column masking and query budgets, with a written threat model and 161 tests.
+
+</td></tr>
+<tr><td valign="top">
+
 ### [Cybersec](https://github.com/aminyx/Cybersec)
 
 `public` · `Python` `JS`
@@ -53,11 +108,7 @@ I build products end to end — backend, mobile, web, infrastructure. Most of wh
 
 </td><td valign="top">
 
-A **270-day path from zero to junior**, fully bilingual in Russian and Tajik.
-
-Nine months of daily lessons · 270 knowledge checks that gate progress, so a day cannot be closed without passing · CTF challenges verified offline against hashed flags · 6 practical exams · 10 portfolio projects.
-
-The site generates itself from Markdown, runs with no framework and no build step, and embeds every lesson video in the page — the player is created only on click, so nothing reaches Google until you press play.
+A **270-day path from zero to junior**, fully bilingual in Russian and Tajik. Nine months of daily lessons · 270 knowledge checks that gate progress · CTF challenges verified offline against hashed flags · 6 practical exams · 10 portfolio projects.
 
 </td></tr>
 <tr><td valign="top">
@@ -83,6 +134,8 @@ A **VPN product end to end**: backend, Android client, desktop app, Telegram bot
 
 </td></tr>
 </table>
+
+More tools in the making — the plan, research and registry are public in [github-portfolio-factory](https://github.com/aminyx/github-portfolio-factory).
 
 <table>
 <tr><td width="50%" valign="top">
