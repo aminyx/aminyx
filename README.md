@@ -82,6 +82,41 @@ An **embedded LSM key-value store built from scratch**, zero dependencies: write
 </td></tr>
 <tr><td valign="top">
 
+### [taintline](https://github.com/aminyx/taintline)
+
+`public` · `TypeScript`
+
+[**Live demo ↗**](https://aminyx.github.io/taintline/)
+
+</td><td valign="top">
+
+**Interprocedural taint analysis that shows its work** — it follows an attacker-controlled value through variables, string building, loops and function calls, across files, and reports every hop rather than just the dangerous line. Calls are inlined instead of summarised so the path stays real; sanitizers are matched to the sinks they actually fix, so `encodeURIComponent` before `execSync` is still reported. Measured on a hand-checked corpus: **precision 92.9%, recall 100%**, with the one false positive kept in the corpus and documented. SARIF output carries the path as a code flow.
+
+</td></tr>
+<tr><td valign="top">
+
+### [raftwood](https://github.com/aminyx/raftwood)
+
+`public` · `Go`
+
+</td><td valign="top">
+
+**Raft consensus, run against thousands of failures per second.** The protocol is a pure state machine with no clock or sockets, which lets a deterministic simulator drive a five-node cluster through 6,500 ticks of dropped, duplicated and reordered messages in 354 ms — checking election safety, log matching and state-machine safety after *every* tick, replayable exactly from the seed. Includes pre-vote and check-quorum, with the difference measured: term 46 under chaos with them, 203 without.
+
+</td></tr>
+<tr><td valign="top">
+
+### [keelsql](https://github.com/aminyx/keelsql)
+
+`public` · `Go`
+
+</td><td valign="top">
+
+**A SQL engine on top of keelstore**: hand-written lexer and parser, a planner that turns predicates into key ranges — and refuses to when the encoding disagrees, because a float bound on an INT column would silently return nothing — a volcano executor, and SQL's three-valued logic done properly. Correctness comes from a three-way differential test: an indexed database, an unindexed one and a plain-Go model must agree on thousands of random statements. Index versus scan, measured: **29× faster, 32× less memory**.
+
+</td></tr>
+<tr><td valign="top">
+
 ### [threshold](https://github.com/aminyx/threshold)
 
 `public` · `Go`
