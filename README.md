@@ -82,6 +82,19 @@ An **embedded LSM key-value store built from scratch**, zero dependencies: write
 </td></tr>
 <tr><td valign="top">
 
+### [hnsw](https://github.com/aminyx/hnsw)
+
+`public` · `Rust`
+
+[**Live demo ↗**](https://aminyx.github.io/hnsw/)
+
+</td><td valign="top">
+
+**Approximate nearest-neighbour search built from the paper, with zero dependencies** — the graph, the PRNG, the CRC-32, the file format and the SIMD-friendly distance kernels are all hand-written. Recall is not asserted, it is measured against an exhaustive scan on held-out queries: **97.65 % recall@10 while touching 2.8 % of the index**. The demo builds a real 25,000-word graph *inside the browser tab* in a few seconds and plots the search descending through the layers. Three bugs found along the way — each one left every structural invariant intact while quietly wrecking retrieval — are written up with the numbers that exposed them.
+
+</td></tr>
+<tr><td valign="top">
+
 ### [lockstep](https://github.com/aminyx/lockstep)
 
 `public` · `TypeScript`
