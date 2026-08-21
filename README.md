@@ -82,6 +82,19 @@ An **embedded LSM key-value store built from scratch**, zero dependencies: write
 </td></tr>
 <tr><td valign="top">
 
+### [lockstep](https://github.com/aminyx/lockstep)
+
+`public` · `TypeScript`
+
+[**Live demo ↗**](https://aminyx.github.io/lockstep/)
+
+</td><td valign="top">
+
+**A regular expression engine that cannot backtrack.** `(a+)+$` against 33 characters takes the browser's own engine more than a minute; this one answers in microseconds, because it advances every alternative together instead of trying them one at a time. The demo races the two side by side — the browser's engine gets its own thread, since once it starts there is no way to interrupt it. Compatibility is proved rather than claimed: **two million differential comparisons against `RegExp`, zero disagreements** outside one documented family, with a seeded generator and a shrinker that reduces any failure to its smallest form.
+
+</td></tr>
+<tr><td valign="top">
+
 ### [taintline](https://github.com/aminyx/taintline)
 
 `public` · `TypeScript`
