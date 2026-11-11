@@ -1,6 +1,6 @@
 <a href="https://aminyx.top"><img src="assets/banner.png" alt="AMINYX — Backend · Full-stack · Systems" width="100%"></a>
 
-## Aminjon Azizov
+## aminyx
 
 **Backend & Full-stack Developer · Python, Go · AI-assisted development**
 
@@ -10,15 +10,16 @@ main tools — I own the architecture and the task breakdown, review and test wh
 write, debug in production and keep the service running.
 
 [![Website](https://img.shields.io/badge/aminyx.top-111827?style=flat-square&logo=googlechrome&logoColor=2F8CFF)](https://aminyx.top)
-[![CV](https://img.shields.io/badge/CV%20(PDF)-111827?style=flat-square&logo=readthedocs&logoColor=2F8CFF)](https://aminyx.top/cv/aminjon-azizov-cv-ru.pdf)
+[![CV](https://img.shields.io/badge/CV%20(PDF)-111827?style=flat-square&logo=readthedocs&logoColor=2F8CFF)](https://aminyx.top/cv/aminyx-cv-ru.pdf)
 [![Telegram](https://img.shields.io/badge/@itsaminyx-111827?style=flat-square&logo=telegram&logoColor=2F8CFF)](https://t.me/itsaminyx)
-[![Email](https://img.shields.io/badge/itsaminyx@gmail.com-111827?style=flat-square&logo=gmail&logoColor=2F8CFF)](mailto:itsaminyx@gmail.com)
+[![Email](https://img.shields.io/badge/support@somonvpn.tech-111827?style=flat-square&logo=gmail&logoColor=2F8CFF)](mailto:support@somonvpn.tech)
 
-Tajikistan · open to remote full-time roles · Russian and Tajik (fluent), English (basic)
+Dubai, UAE · born in Tajikistan · 25 · works remotely, open to full-time roles · Russian and Tajik (fluent), English (basic)
 
 ### Commercial experience
 
 **SomonVPN** — a commercial VPN service, built and operated end to end.
+2,800+ paying customers and 2,100+ active paid subscriptions since launch in June 2026, growing every month.
 Closed source; case study on [aminyx.top](https://aminyx.top/#p-somonvpn).
 
 <img src="assets/somonvpn-architecture.png" alt="SomonVPN system overview: the Android app, Telegram bots and web clients talk to a Go core API backed by PostgreSQL; the API provisions a Linux server fleet running Xray, WireGuard and QUIC, which is watched by monitoring" width="100%">
